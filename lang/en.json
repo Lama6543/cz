@@ -58,7 +58,7 @@
     "afksremoved": "AFK's removed",
     "afklimit": "AFK limit",
     "autoskip": "automatický skip",
-    "newblacklisted": "/me [@%%NAME%%] Co to pouštíš za %%BLACKLIST%% ! [ %%AUTHOR%% - %%TITLE%% - %%MID%% ]",
+    "newblacklisted": "/me [@%%NAME%%] Co to pouštíš za %%BLACKLIST%% ?! [ %%AUTHOR%% - %%TITLE%% - %%MID%% ]",
     "blinfo": "[@%%NAME%%] Blacklist Info - author: %%AUTHOR%%, title: %%TITLE%%, mid: %%SONGID%%",
     "blacklist": "blacklist",
     "cycleguard": "Hlídač fronty",
