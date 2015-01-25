@@ -115,7 +115,7 @@
     "mutednotime": "/me :mute: [@%%NAME%%] Umlčen @%%USERNAME%% :mute: ",
     "mutedmaxtime": "/me [@%%NAME%%] Můžeš někoho umlčet na %%TIME%% minut.",
     "mutedtime": "/me :mute: [@%%NAME%%] umlčel @%%USERNAME%% na %%TIME%% minut :mute: ",
-    "unmuted": "/me [@%%NAME%%] odmlčel @%%USERNAME%%.",
+    "unmuted": "/me :speaker: [@%%NAME%%] odmlčel @%%USERNAME%% :speaker:",
     "muterank": "/me [@%%NAME%%] Nemůžeš umlčet větší rank než si.",
     "oplist": "/me OP list: %%LINK%%",
     "pong": "/me Pong :trollface: ",
