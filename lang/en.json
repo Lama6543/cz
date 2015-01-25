@@ -5,7 +5,7 @@
     "datarestored": "Data úspěšně načteny.",
     "greyuser": "Ty nemůžeš zapnout bota.",
     "bouncer": "Tuto funkci nemůžeš použít.",
-    "online": "/me :see_no_evil: %%BOTNAME%% v%%VERSION%% je online! :hear_no_evil: ",
+    "online": "/me %%BOTNAME%% v%%VERSION%% je online! ",
 
 
     "welcome": "/me :metal: Ahoooj @%%NAME%% :metal:",
