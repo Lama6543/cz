@@ -17,7 +17,7 @@
 
 
     "isopen": "/me :warning: Ruleta nyní začala! Napiš !join pro připojení! :warning: ",
-    "winnerpicked": "/me Vítězem se stává :tada: @%%NAME%% :tada: . Posouvá na %%POSITION%% pozici :clap: ",
+    "winnerpicked": "/me Vítězem se stává :tada: @%%NAME%% :tada: . Posouvá se na %%POSITION%% pozici :clap: ",
 
 
     "alreadyadding": "/me Uživatel už byl přidán! Pozice se změnila na %%POSITION%%.",
