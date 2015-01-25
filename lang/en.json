@@ -25,7 +25,7 @@
 
 
     "usernotfound": "/me Uživatel nebyl nalezen.",
-    "notdisconnected": "/me @%%NAME%% did not disconnect during my time here.",
+    "notdisconnected": "/me @%%NAME%% nebyl připojen ve frontě.",
     "noposition": "/me No last position known. The waitlist needs to update at least once to register a user's last position.",
     "toolongago": "/me @%%NAME%%'s last disconnect (DC or leave) was too long ago: %%TIME%%.",
     "valid": "/me @%%NAME%% odpojen před %%TIME%% a byl na pozici %%POSITION%%.",
