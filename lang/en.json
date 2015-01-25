@@ -11,9 +11,9 @@
     "welcome": "/me :metal: Ahoooj @%%NAME%% :metal:",
     "welcomeback": "/me :metal: Ahoooj @%%NAME%% :metal:",
     "songknown": "/me :repeat: Tato písnička již hrála %%PLAYS%% time(s) v poslední %%TIMETOTAL%%, naposledy hrála před %%LASTTIME%% . :repeat:",
-    "timelimit": "/me :fast_forward: @%%NAME%%, tvoje písnička je delší než %%MAXLENGTH%% minut :fast_forward: ",
+    "timelimit": "/me :fast_forward: @%%NAME%%, tvoje písnička je delší než %%MAXLENGTH%% minut  ",
     "permissionownsong": "/me :up: @%%NAME%% has permission to play their own production!",
-    "isblacklisted": "/me :fast_forward: Tato písnička je na %%BLACKLIST%% blacklistu! :fast_forward:",
+    "isblacklisted": "/me :fast_forward: Tato písnička je na %%BLACKLIST%% blacklistu!",
 
 
     "isopen": "/me :warning: Ruleta nyní začala! Napiš !join pro připojení! :warning: ",
@@ -58,7 +58,7 @@
     "afksremoved": "AFK's removed",
     "afklimit": "AFK limit",
     "autoskip": "automatický skip",
-    "newblacklisted": "/me [@%%NAME%%] This track belongs on the %%BLACKLIST%% blacklist! [ %%AUTHOR%% - %%TITLE%% - %%MID%% ]",
+    "newblacklisted": "/me [@%%NAME%%] Co to pouštíš za %%BLACKLIST%% ! [ %%AUTHOR%% - %%TITLE%% - %%MID%% ]",
     "blinfo": "[@%%NAME%%] Blacklist Info - author: %%AUTHOR%%, title: %%TITLE%%, mid: %%SONGID%%",
     "blacklist": "blacklist",
     "cycleguard": "Hlídač fronty",
