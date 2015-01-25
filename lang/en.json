@@ -17,7 +17,7 @@
 
 
     "isopen": "/me :warning: Ruleta nyní začala! Napiš !join pro připojení! :warning: ",
-    "winnerpicked": "/me Vítězem se stává :tada: @%%NAME%% :tada: Posouvá na %%POSITION%% pozici :clap: ",
+    "winnerpicked": "/me Vítězem se stává :tada: @%%NAME%% :tada: . Posouvá na %%POSITION%% pozici :clap: ",
 
 
     "alreadyadding": "/me Uživatel už byl přidán! Pozice se změnila na %%POSITION%%.",
@@ -38,7 +38,7 @@
 
     "caps": "/me @%%NAME%%, vypni si prosím CAPS LOCK :warning: ",
     "askskip": "/me @%%NAME%%, nežádej o přeskočení :warning: ",
-    "spam": "/me @%%NAME%%, nespamuj.",
+    "spam": "/me @%%NAME%%, nespamuj :warning: ",
     "roomadvertising": "/me @%%NAME%%, neposílej linky :warning: ",
     "adfly": "/me @%%NAME%%, tady měla být reklama :P",
 
@@ -86,7 +86,7 @@
     "chatcleared": "/me [@%%NAME%%] vyčistil chat.",
     "deletechat": "/me [@%%NAME%%] odstranil chat %%USERNAME%%.",
     "commandslink": "/me %%BOTNAME%% příkazy: %%LINK%%",
-    "eatcookie": "/me snědl sušenku :cookie: ",
+    "eatcookie": "/me :cookie: snědl sušenku :cookie: ",
     "nousercookie": "/em :cookie: Neviděl si %%NAME%% v místnosti a sežral si sušenku sám :cookie: ",
     "selfcookie": "/me :cookie: @%%NAME%%, si trochu lakomí ne ? Dal jsi sušenku sám sobě. Rozděl se s ostatníma! :cookie: ",
     "cookie": "/me :cookie: @%%NAMETO%%, @%%NAMEFROM%% %%COOKIE%% :cookie: ",
@@ -97,7 +97,7 @@
     "eta": "/me @%%NAME%% you will reach the booth in approximately %%TIME%%.",
     "facebook": "/me Přidej se k nám na facebook: %%LINK%%",
     "starterhelp": "/me Tento obrázek ti pomůže s orientací: %%LINK%%",
-    "roulettejoin": "/me :slot_machine: @%%NAME%% Se připojil do rulety! (!leave pokud chceš odejít.) :slot_machine: ",
+    "roulettejoin": "/me @%%NAME%% Se připojil do rulety! (!leave pokud chceš odejít.)",
     "jointime": "/me [@%%NAMEFROM%%] @%%USERNAME%% je v mísnosti už %%TIME%%.",
     "kickrank": "/me [@%%NAME%%] nemůžeš vyhodit větší rank než seš ty!",
     "kick": "/me [@%%NAME%%], @%%USERNAME%% byl jsi vykopnut z komunity na %%TIME%% minut.",
@@ -118,10 +118,10 @@
     "unmuted": "/me [@%%NAME%%] odmlčel @%%USERNAME%%.",
     "muterank": "/me [@%%NAME%%] Nemůžeš umlčet větší rank než si.",
     "oplist": "/me OP list: %%LINK%%",
-    "pong": "/me Pong :P",
+    "pong": "/me Pong :trollface: ",
     "reload": "/me Přijdu hned.",
     "removenotinwl": "/me [@%%NAME%%] Specified user @%%USERNAME%% is not in the waitlist.",
-    "roomrules": "/me Přečti si prosím pravidla: %%LINK%%",
+    "roomrules": "/me Pravidla :clipboard: : %%LINK%%",
     "sessionstats": "/me [@%%NAME%%] Woot: %%WOOTS%%, Meh: %%MEHS%%, Ukradení: %%GRABS%%.",
     "skip": "/me [%%NAME%% used skip.]",
     "madeby": "/me Tento bot byl vytvořen %%NAME%%.",
