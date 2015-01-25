@@ -5,19 +5,19 @@
     "datarestored": "Previously stored data successfully retrieved.",
     "greyuser": "Only bouncers and up can run a bot.",
     "bouncer": "The bot can't move people when it's run as a bouncer.",
-    "online": "/me %%BOTNAME%% v%%VERSION%% online!",
+    "online": "/me %%BOTNAME%% v%%VERSION%% je online!",
 
 
     "welcome": "/me Vítej %%NAME%%",
     "welcomeback": "/me Vítej zpět, %%NAME%%",
-    "songknown": "/me :repeat: This song has been played %%PLAYS%% time(s) in the last %%TIMETOTAL%%, last play was %%LASTTIME%% ago. :repeat:",
-    "timelimit": "/me @%%NAME%%, your song is longer than %%MAXLENGTH%% minutes, you need permission to play longer songs.",
+    "songknown": "/me :repeat: Tato písnička hrála %%PLAYS%% time(s) v poslední %%TIMETOTAL%%, naposledy hrála před %%LASTTIME%% . :repeat:",
+    "timelimit": "/me @%%NAME%%, tvoje písnička je delší než %%MAXLENGTH%% minut.",
     "permissionownsong": "/me :up: @%%NAME%% has permission to play their own production!",
-    "isblacklisted": "/me This track is on the %%BLACKLIST%% blacklist! Skipping...",
+    "isblacklisted": "/me Tato písnička je na %%BLACKLIST%% blacklistu! Skip...",
 
 
-    "isopen": "/me The roulette is now open! Type !join to participate!",
-    "winnerpicked": "/me A winner has been picked! @%%NAME%% to position %%POSITION%%.",
+    "isopen": "/me Ruleta nynní začala! Napiš !join pro připojení!",
+    "winnerpicked": "/me Vítězem se stává! @%%NAME%% se posouvá na %%POSITION%%.",
 
 
     "alreadyadding": "/me User is already being added! Changed the desired position to %%POSITION%%.",
