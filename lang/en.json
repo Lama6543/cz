@@ -86,7 +86,7 @@
     "chatcleared": "/me [@%%NAME%%] vyčistil chat.",
     "deletechat": "/me [@%%NAME%%] odstranil chat %%USERNAME%%.",
     "commandslink": "/me %%BOTNAME%% příkazy: %%LINK%%",
-    "eatcookie": "/me :cookie: @Livush už všechny sušenky snědla, zádná tu už není :( :cookie: ",
+    "eatcookie": "/me Pro darování sušenku použij !cookie @jméno ",
     "nousercookie": "/em :cookie: Neviděl si %%NAME%% v místnosti a sežral si sušenku sám :cookie: ",
     "selfcookie": "/me :cookie: @%%NAME%%, si trochu lakomí ne ? Dal jsi sušenku sám sobě. Rozděl se s ostatníma! :cookie: ",
     "cookie": "/me :cookie: @%%NAMETO%%, @%%NAMEFROM%% %%COOKIE%% :cookie: ",
