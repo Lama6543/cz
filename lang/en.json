@@ -126,6 +126,10 @@
     "skip": "/me [%%NAME%% used skip.]",
     "madeby": "/me Tento bot byl vytvořen %%NAME%%.",
     "activefor": "Jsem aktivní %%TIME%%.",
+    "vyplynuj": "Pro vyplynovanie použij !vyplynovat @jméno ",
+    "nouservyplynovat": "/me Nemôžeš vyplynovat %%NAME%% keď tu nie je!",
+    "selfvyplynovat": "/me Ozaj chceš vyplynovať sám seba?",
+    "vyplynovat": "@%%NAMETO%% @%%NAMEFROM%% ťa vyplynoval!"
     "swapinvalid": "/me [@%%NAME%%] Špatně zadané jméno",
     "swapwlonly": "/me [@%%NAME%%] Přehazuj pouze lidi ve waitlistu",
     "swapping": "/me Prohodil %%NAME1%% s %%NAME2%%.",
