@@ -2993,7 +2993,7 @@ vyplynovatCommand: {
                 command: 'vyplynovat',
                 rank: 'user',
                 type: 'startsWith',
-                cookies: ['test',
+                vyplynovat: ['test',
                     'test',
                     'test',
                     'test',
@@ -3015,8 +3015,8 @@ vyplynovatCommand: {
                     'test'
                 ],
                 vyplynovat: function () {
-                    var c = Math.floor(Math.random() * this.cookies.length);
-                    return this.cookies[c];
+                    var c = Math.floor(Math.random() * this.vyplynovat);
+                    return this.vyplynovat[c];
                 },
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -3039,7 +3039,7 @@ vyplynovatCommand: {
                                 return API.sendChat(subChat(basicBot.chat.vyplynovat, {name: name}));
                             }
                             else {
-                                return API.sendChat(subChat(basicBot.chat.vyplynovat, {nameto: user.username, namefrom: chat.un, cookie: this.getCookie()}));
+                                return API.sendChat(subChat(basicBot.chat.vyplynovat, {nameto: user.username, namefrom: chat.un, vyplynovat: this.getvyplynovat()}));
                             }
                         }
                     }
