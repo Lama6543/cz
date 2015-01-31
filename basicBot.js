@@ -3014,7 +3014,7 @@ vyplynovatCommand: {
                     'test',
                     'test'
                 ],
-                getCookie: function () {
+                vyplynovat: function () {
                     var c = Math.floor(Math.random() * this.cookies.length);
                     return this.cookies[c];
                 },
