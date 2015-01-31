@@ -2989,63 +2989,6 @@ cookieCommand: {
                 }
             },
 
-vyplynovatCommand: {
-                command: 'vyplynovat',
-                rank: 'user',
-                type: 'startsWith',
-                vyplynovat: ['test',
-                    'test',
-                    'test',
-                    'test',
-                    'test.',
-                    'test',
-                    'test"',
-                    'test',
-                    'test"',
-                    'test"',
-                    'test',
-                    'test',
-                    'test',
-                    'test',
-                    'test',
-                    'test',
-                    'test',
-                    'test',
-                    'test',
-                    'test'
-                ],
-                vyplynovat: function () {
-                    var c = Math.floor(Math.random() * this.vyplynovat);
-                    return this.vyplynovat[c];
-                },
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        var msg = chat.message;
-
-                        var space = msg.indexOf(' ');
-                        if (space === -1) {
-                            API.sendChat(basicBot.chat.vyplynovat);
-                            return false;
-                        }
-                        else {
-                            var name = msg.substring(space + 2);
-                            var user = basicBot.userUtilities.lookupUserName(name);
-                            if (user === false || !user.inRoom) {
-                                return API.sendChat(subChat(basicBot.chat.vyplynovat, {name: name}));
-                            }
-                            else if (user.username === chat.un) {
-                                return API.sendChat(subChat(basicBot.chat.vyplynovat, {name: name}));
-                            }
-                            else {
-                                return API.sendChat(subChat(basicBot.chat.vyplynovat, {nameto: user.username, namefrom: chat.un, vyplynovat: this.getvyplynovat()}));
-                            }
-                        }
-                    }
-                }
-            },
-
             youtubeCommand: {
                 command: 'youtube',
                 rank: 'user',
