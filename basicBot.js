@@ -2918,63 +2918,6 @@
                 }
             },
 
-cookieCommand: {
-                command: 'cookie',
-                rank: 'user',
-                type: 'startsWith',
-                cookies: ['ti dal čokoládovou šušenku!',
-                    'ti dal domácí zeleninovou sušenku!',
-                    'ti dal smradlavou, suchou a starou susšnku. Zbyla mu v batohu. Fuj.',
-                    'ti dal sladkou sušenku. Co ? Žádná chuť jen cukr ? 0/10 to je hnus.',
-                    'ti dal čokoládovou sučenku. Počkat, to je rasistické.',
-                    'ti dal obrovskou sušenku. Která vybouchla a dala ti další susšnky.',
-                    'ti dal sušenku štěstí. Píše se tu "Proč nepracuješ na žádném projektu?"',
-                    'ti chtěl dát sušenku ale cestou jí snědl',
-                    'ti dal sušenku štěstí. Píše se tu "Zariskuj!"',
-                    'ti dal sušenku štěstí. Píše se tu "Di ven."',
-                    'ti dal sušenku štěstí. Píše se tu "Nezpomeň sníst své jídlo!"',
-                    'ti dal sušenku štěstí. Píše se tu "Do you even lift?"',
-                    'ti dal sušenku štěstí. Píše se tu, počkat sušenka byla prázdná :( ',
-                    'ti dal sušenku štěstí. Píše se tu "Hýbej bokama a budeš mít všechny ženský."',
-                    'ti dal sušenku štěstí. Píše se tu "Miluji tě :heart: ."',
-                    'ti dal zlatou sušenku. Nemůžeš jí sníst protože je ze zlata. Sakra!',
-                    'ti dal sušenku oreo s sklenicí mléka!',
-                    'ti dal duhovou sušenku, vyrobenou z lásky :heart:',
-                    'ti dal starou sušenku která zůstala na dešti, je mokrá.',
-                    'ti upekl čerstvé sušenky, voní nádherně.'
-                ],
-                getCookie: function () {
-                    var c = Math.floor(Math.random() * this.cookies.length);
-                    return this.cookies[c];
-                },
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        var msg = chat.message;
-
-                        var space = msg.indexOf(' ');
-                        if (space === -1) {
-                            API.sendChat(basicBot.chat.eatcookie);
-                            return false;
-                        }
-                        else {
-                            var name = msg.substring(space + 2);
-                            var user = basicBot.userUtilities.lookupUserName(name);
-                            if (user === false || !user.inRoom) {
-                                return API.sendChat(subChat(basicBot.chat.nousercookie, {name: name}));
-                            }
-                            else if (user.username === chat.un) {
-                                return API.sendChat(subChat(basicBot.chat.selfcookie, {name: name}));
-                            }
-                            else {
-                                return API.sendChat(subChat(basicBot.chat.cookie, {nameto: user.username, namefrom: chat.un, cookie: this.getCookie()}));
-                            }
-                        }
-                    }
-                }
-            },
-
             websiteCommand: {
                 command: 'website',
                 rank: 'user',
