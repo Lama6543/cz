@@ -90,6 +90,7 @@
     "nousercookie": "/em :cookie: Neviděl si %%NAME%% v místnosti a sežral si sušenku sám :cookie: ",
     "selfcookie": "/me :cookie: @%%NAME%%, si trochu lakomí ne ? Dal jsi sušenku sám sobě. Rozděl se s ostatníma! :cookie: ",
     "cookie": "/me :cookie: @%%NAMETO%%, @%%NAMEFROM%% %%COOKIE%% :cookie: ",
+    "vyplynovat": "/me nemůžeš jen tak plynovat ",
     "cycleguardtime": "/me [@%%NAME%%] Hlídač fronty byl nastaven na %%TIME%% minut.",
     "dclookuprank": "/me [@%%NAME%%] Only bouncers and above can do a lookup for others.",
     "emojilist": "/me Smajlíci: %%LINK%%",
